@@ -55,4 +55,20 @@
         <repository>
             <id>central</id>
             <url>https://repo.maven.apache.org/maven2</url>
-  
+        </repository>
+        <!-- Add more repositories if needed -->
+    </repositories>
+
+    <!-- Profiles (Optional) -->
+    <!-- Define build profiles if required -->
+    <profiles>
+        <profile>
+            <id>development</id>
+            <properties>
+                <environment>dev</environment>
+            </properties>
+            <!-- Add profile-specific configurations -->
+        </profile>
+        <!-- Add more profiles if needed -->
+    </profiles>
+</project>
