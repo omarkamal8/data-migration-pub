@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Basic Project Information -->
+    <groupId>com.example</groupId> <!-- Replace with your project's group ID -->
+    <artifactId>my-app</artifactId> <!-- Replace with your project's artifact ID -->
+    <version>1.0-SNAPSHOT</version> <!-- Replace with your project's version -->
+
+    <name>My Application</name> <!-- Replace with your project's name -->
+    <description>A brief description of your project</description> <!-- Optional -->
+
+    <!-- Dependencies -->
+    <dependencies>
+        <!-- Example: Add a dependency for JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Add more dependencies as needed -->
+    </dependencies>
+
+    <!-- Build Settings -->
+    <build>
+        <plugins>
+            <!-- Maven Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source> <!-- Specify the Java source version -->
+                    <target>1.8</target> <!-- Specify the Java target version -->
+                </configuration>
+            </plugin>
+
+            <!-- SonarQube Scanner Plugin -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.1.2184</version>
+            </plugin>
+
+            <!-- Add more plugins as needed -->
+        </plugins>
+    </build>
+
+    <!-- Repository Settings (Optional) -->
+    <!-- Define additional repositories if required -->
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+  
