@@ -6,7 +6,7 @@
 
     <!-- Basic Project Information -->
     <groupId>com.example</groupId> <!-- Replace with your project's group ID -->
-    <artifactId>my-app</artifactId> <!-- Replace with your project's artifact ID -->
+    <artifactId>data-migration-pub</artifactId> <!-- Replace with your project's artifact ID -->
     <version>1.0-SNAPSHOT</version> <!-- Replace with your project's version -->
 
     <name>My Application</name> <!-- Replace with your project's name -->
