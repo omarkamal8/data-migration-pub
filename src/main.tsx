@@ -4,7 +4,7 @@ import Root from "./routes/root";
 import Home from "./routes/home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-//sss
+
 const router = createBrowserRouter([
   {
     path: "/",
